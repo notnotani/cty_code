@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HTML 5 Form Editing</title>
+</head>
+<body>
+	<form action="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+		<fieldset>
+		<legend>Tell Me About Yourself</legend>
+		<p>What's Your Name?</p>
+		<input type="text" name="name" size="30" maxlength="100">
+		<p>How Old Are You?</p>
+		<input type="text" name="age" size="30" maxlength="100">
+		<p>What are your favorite school subjects?</p>
+		<select name="rating">
+			<option>Math</option>
+			<option>Science</option>
+			<option>English</option>
+			<option>History</option>
+			<option>Art</option>
+			<option>Music</option>
+			<option>Social Studies</option>
+			<option>Physics</option>
+			<option>Chemistry</option>
+			<option>Biology</option>
+		<p>What is your gender?</p> <!--For some reason, this line doesn't appear in the final product. Not sure why.-->
+		<input type="radio" name="gender" value="Male"> Male
+		<input type="radio" name="gender" value="Female"> Female
+		<input type="radio" name="gender" value="Other"> Other
+	</fieldset>
+	<fieldset>
+		<legend>About My Website</legend>
+		<p>What were your favorite pages?</p>
+		<input type="checkbox" name="favpage" value="Home"> Home
+		<input type="checkbox" name="favpage" value="About"> About
+		<input type="checkbox" name="favpage" value="School"> School
+		<input type="checkbox" name="favpage" value="Hobbies"> Hobbies
+		<p>Please leave your comments</p>
+		<textarea name="comments" cols="20" rows="4"></textarea>
+	</fieldset>
+	<input type="submit" name="submit" value="submit">
+		<input type="reset" name="reset" value="reset">
+	</form>
+</body>
+</html>

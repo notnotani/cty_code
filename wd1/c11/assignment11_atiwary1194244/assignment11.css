@@ -1,0 +1,22 @@
+.li1 {
+	display: inline
+	padding-left: 30px
+}
+body {
+    background-color: yellow
+}
+h1 {
+	text-align: center;
+}
+.ul1 {
+	padding-left: 30px
+	display: inline;
+}
+.ul2 {
+	background-color: rgb(254, 255, 204);
+	list-style-image:url(chefhat10x10.png);
+}
+ol {
+	color: rgb(67, 56, 250);
+	background-color: rgb(173, 216, 230)
+}

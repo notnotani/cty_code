@@ -1,0 +1,42 @@
+body {
+	background-color: rgb(237,245,161);
+	border-style: solid;
+	border-width: 5px;
+	border-spacing: 5px;
+}
+#header {
+	text-align: center;
+	border-style: solid;
+	border-width: 5px;
+}
+#left {
+	width: 900px;
+	border-style: solid;
+	border-width: 5px;
+	float: left;
+}
+#right {
+	width: 900px;
+	border-style: solid;
+	border-width: 5px;
+	float: right;
+}
+#invispad1 {
+	text-align: center;
+	color: rgb(237,245,161);
+}
+#footer {
+	text-align: center;
+	border-style: solid;
+	border-width: 5px;
+}
+.right_cont {
+	width: 220px;
+	height: 180px;
+	float: right;
+}
+.left_cont {
+	width: 220px;
+	height: 180px;
+	float: left;
+}
