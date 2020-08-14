@@ -5,13 +5,13 @@ h1 {
 	text-align: center
 }
 .vertnavbar {
-  list-style-type: none;
-  width: 200px;
-  margin: 0;
-  padding: 0;
-  background-color: rgb(210,180,140)
+  	list-style-type: none;
+  	background-color: rgb(210,180,140)
 }
-.logo {
-	display: block;
-	float: center;
+#logo {
+	text-align: center;
+}
+hr {
+	color: black
+	background-color: black;
 }
