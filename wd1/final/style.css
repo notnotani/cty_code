@@ -1,7 +1,7 @@
 body {
 	background-color: rgb(210,180,140)
 }
-h1 {
+h1, h2, h3, h4 {
 	text-align: center
 }
 .vertnavbar {
@@ -14,4 +14,36 @@ h1 {
 hr {
 	color: black
 	background-color: black;
+}
+#tablapic {
+	float: right;
+}
+#zakir {
+	float: left;
+}
+p {
+	padding-left: 50px;
+	padding-right: 50px;
+	text-align: center;
+}
+audio {
+	display: block;
+	margin: 0 auto;
+}
+th, td {
+	padding: 2px;
+	margin: 2px;
+	border: 1px solid black;
+}
+table {
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+}
+form {
+	margin: 0 auto;
+}
+iframe {
+	margin: 0 auto;
+	display: block;
 }
