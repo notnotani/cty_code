@@ -6,7 +6,12 @@ h1, h2, h3, h4 {
 }
 .vertnavbar {
   	list-style-type: none;
-  	background-color: rgb(210,180,140)
+  	background-color: rgb(210,180,140);
+  	text-align: center;
+}
+.vertnavbar li {
+	display: inline;
+	padding: 40px;
 }
 #logo {
 	text-align: center;
