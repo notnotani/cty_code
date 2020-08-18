@@ -52,3 +52,30 @@ iframe {
 	margin: 0 auto;
 	display: block;
 }
+
+.section {
+	height: 250px;
+}
+
+.text {
+	width: 70%;
+	height: 100%;
+}
+
+.img {
+	width: 30%;
+	height: 100%;
+	text-align: center;
+}
+
+.img img {
+	height: 96%;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
